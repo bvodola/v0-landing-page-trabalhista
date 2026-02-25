@@ -16,7 +16,7 @@ export function ContactSection() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 ml-3">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 justify-center lg:max-w-2xl mx-auto">
           <a
             href="https://wa.me/5511913307306"
             target="_blank"
