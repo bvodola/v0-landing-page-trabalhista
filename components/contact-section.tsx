@@ -1,3 +1,4 @@
+import { handleWhatsappConversionClick } from "@/lib/whatsappConversion"
 import { Phone, Mail, MapPin, Clock } from "lucide-react"
 
 export function ContactSection() {
@@ -22,6 +23,7 @@ export function ContactSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-accent/50 hover:shadow-lg"
+            onClick={e => handleWhatsappConversionClick(e, "https://wa.me/5511913307306")}
           >
             <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366]/10 text-[#25D366] transition-colors group-hover:bg-[#25D366]/20">
               <Phone className="h-5 w-5" />

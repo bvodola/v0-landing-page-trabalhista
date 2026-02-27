@@ -1,4 +1,5 @@
 import { MessageSquare, FileSearch, Gavel, ArrowRight } from "lucide-react"
+import { handleWhatsappConversionClick } from "@/lib/whatsappConversion"
 
 const steps = [
   {
@@ -70,6 +71,7 @@ export function ProcessSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-lg bg-accent px-8 py-3 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent/90"
+            onClick={e => handleWhatsappConversionClick(e, "https://wa.me/5511913307306?text=Olá, gostaria de uma avaliação gratuita do meu caso trabalhista.")}
           >
             Comece Agora — É Gratuito
             <ArrowRight className="h-4 w-4" />
