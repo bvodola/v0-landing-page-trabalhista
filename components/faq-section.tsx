@@ -83,19 +83,19 @@ export function FaqSection() {
           </p>
           <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
-              href="https://wa.me/5511913307306?text=Olá, gostaria de uma avaliação gratuita do meu caso trabalhista."
+              // href removido para evitar race condition
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
+              className="inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90 cursor-pointer"
               onClick={e => handleWhatsappConversionClick(e, "https://wa.me/5511913307306?text=Olá, gostaria de uma avaliação gratuita do meu caso trabalhista.")}
             >
               Fale com um Advogado Agora
             </a>
             <a
-              href="https://wa.me/5511913307306"
+              // href removido para evitar race condition
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-border bg-card px-6 py-3 text-sm font-semibold text-card-foreground transition-colors hover:bg-secondary"
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-border bg-card px-6 py-3 text-sm font-semibold text-card-foreground transition-colors hover:bg-secondary cursor-pointer"
               onClick={e => handleWhatsappConversionClick(e, "https://wa.me/5511913307306")}
             >
               <svg viewBox="0 0 24 24" className="h-4 w-4 fill-[#25D366]">

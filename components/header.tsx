@@ -49,10 +49,10 @@ export function Header() {
         {/* Desktop CTA */}
         <div className="hidden items-center gap-3 lg:flex">
           <a
-            href="https://wa.me/5511913307306"
+            // href removido para evitar race condition
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-sm font-medium text-primary"
+            className="flex items-center gap-2 text-sm font-medium text-primary cursor-pointer"
             onClick={e => handleWhatsappConversionClick(e, "https://wa.me/5511913307306")}
           >
             <Phone className="h-4 w-4" />
@@ -60,9 +60,10 @@ export function Header() {
           </a>
           <Button asChild className="bg-[#25D366] text-white hover:bg-[#20bd5a]">
             <a
-              href="https://wa.me/5511913307306?text=Olá, gostaria de uma avaliação gratuita do meu caso trabalhista."
+              // href removido para evitar race condition
               target="_blank"
               rel="noopener noreferrer"
+              className="cursor-pointer"
               onClick={e => handleWhatsappConversionClick(e, "https://wa.me/5511913307306?text=Olá, gostaria de uma avaliação gratuita do meu caso trabalhista.")}
             >
               <svg viewBox="0 0 24 24" className="mr-2 h-4 w-4 fill-current">
@@ -98,7 +99,7 @@ export function Header() {
               </a>
             ))}
             <a
-              href="https://wa.me/5511913307306"
+              // href removido para evitar race condition
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-3 py-2 text-sm font-medium text-primary"

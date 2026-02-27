@@ -23,10 +23,10 @@ export function ContactForm() {
           size="lg"
         >
           <a
-            href="https://wa.me/5511913307306?text=Olá, gostaria de uma avaliação gratuita do meu caso trabalhista."
+            // href removido para evitar race condition
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2"
+            className="flex items-center justify-center gap-2 cursor-pointer"
             onClick={e => handleWhatsappConversionClick(e, "https://wa.me/5511913307306?text=Olá, gostaria de uma avaliação gratuita do meu caso trabalhista.")}
           >
             <svg viewBox="0 0 24 24" className="h-5 w-5 fill-current">
