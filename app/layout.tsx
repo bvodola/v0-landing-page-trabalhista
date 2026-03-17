@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const raleway = Raleway({ subsets: ["latin"], variable: "--font-raleway" });
 
 export const metadata: Metadata = {
-  title: 'Assunção Advogados | Seus Direitos, Nossa Prioridade',
-  description: 'Assunção Advogados - Escritório especializado em Direito Trabalhista. Atendimento humanizado para demissão injusta, horas extras, assédio no trabalho e mais. Consulta gratuita.',
+  title: 'Martins & Associados Advocacia | Seus Direitos, Nossa Prioridade',
+  description: 'Martins & Associados Advocacia - Escritório especializado em Direito Trabalhista. Atendimento humanizado para demissão injusta, horas extras, assédio no trabalho e mais. Consulta gratuita.',
   generator: 'v0.app',
   icons: {
     icon: [

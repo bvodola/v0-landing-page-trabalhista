@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <Image
               src="/images/logo.png"
-              alt="Assunção Advogados"
+              alt="Martins & Associados Advocacia"
               width={280}
               height={84}
               className="h-20 w-auto brightness-0 invert"
@@ -44,7 +44,7 @@ export function Footer() {
 
         <div className="mt-8 border-t border-primary-foreground/10 pt-6 text-center text-xs text-primary-foreground/40">
           <p>
-            {'© 2026 Assunção Advogados. Todos os direitos reservados.'}
+            {'© 2026 Martins & Associados Advocacia. Todos os direitos reservados.'}
           </p>
         </div>
       </div>

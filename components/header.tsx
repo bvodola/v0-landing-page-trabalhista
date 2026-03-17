@@ -24,7 +24,7 @@ export function Header() {
         <a href="#" className="flex items-center">
           <Image
             src="/images/logo.png"
-            alt="Assunção Advogados"
+            alt="Martins & Associados Advocacia"
             width={320}
             height={96}
             className="h-20 w-auto md:h-24"

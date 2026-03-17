@@ -42,14 +42,14 @@ export function ContactSection() {
           </a>
 
           <a
-            href="mailto:contato@alexandreassuncao.com.br"
+            href="mailto:contato@martinsassociados.adv.br"
             className="group flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-accent/50 hover:shadow-lg"
           >
             <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary transition-colors group-hover:bg-primary/20">
               <Mail className="h-5 w-5" />
             </div>
             <h3 className="font-serif text-base text-card-foreground">E-mail</h3>
-            <p className="mt-1 text-sm text-muted-foreground">contato@alexandreassuncao.com.br</p>
+            <p className="mt-1 text-sm text-muted-foreground">contato@martinsassociados.adv.br</p>
           </a>
 
           <div className="flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center">
