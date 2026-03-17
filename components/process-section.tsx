@@ -6,7 +6,7 @@ const steps = [
     icon: MessageSquare,
     title: "Conte seu Caso",
     description:
-      "Entre em contato pelo formulário ou WhatsApp e descreva brevemente sua situação. É rápido e sem compromisso.",
+      "Entre em contato pelo WhatsApp e descreva brevemente sua situacao. E rapido, sigiloso e sem compromisso.",
   },
   {
     number: "02",

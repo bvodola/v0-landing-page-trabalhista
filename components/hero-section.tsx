@@ -24,17 +24,17 @@ export function HeroSection() {
         <div className="flex flex-col justify-center">
           <div className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-primary-foreground/20 bg-primary-foreground/10 px-4 py-2 text-sm font-medium text-primary-foreground/90">
             <Shield className="h-4 w-4" />
-            Mais de 15 anos defendendo trabalhadores
+            Especialistas em Rescisao e Verbas Trabalhistas
           </div>
 
           <h1 className="font-serif text-4xl font-medium leading-tight text-primary-foreground md:text-5xl lg:text-6xl text-balance">
-            Seus Direitos Trabalhistas Merecem{" "}
-            <span className="text-accent">Defesa Especializada</span>
+            Foi Demitido e Acha que{" "}
+            <span className="text-accent">Recebeu Menos do que Deveria?</span>
           </h1>
 
           <p className="mt-6 max-w-lg text-lg font-medium leading-relaxed text-primary-foreground/80">
-            Foi demitido injustamente? Tem horas extras sem pagamento? Sofreu assédio no trabalho? 
-            Receba uma avaliação gratuita do seu caso por advogados especializados.
+            Descubra em uma analise gratuita se voce tem direito a verbas rescisorias, 
+            horas extras ou indenizacao. Mais de 2.500 casos analisados com 97% de satisfacao em pesquisa interna.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -67,7 +67,7 @@ export function HeroSection() {
               </div>
               <div>
                 <p className="text-sm font-bold text-primary-foreground">2.500+</p>
-                <p className="text-xs text-primary-foreground/60">Casos Resolvidos</p>
+                <p className="text-xs text-primary-foreground/60">Casos Analisados</p>
               </div>
             </div>
             <div className="flex items-center gap-2">
@@ -76,7 +76,7 @@ export function HeroSection() {
               </div>
               <div>
                 <p className="text-sm font-bold text-primary-foreground">97%</p>
-                <p className="text-xs text-primary-foreground/60">Clientes Satisfeitos</p>
+                <p className="text-xs text-primary-foreground/60">Satisfacao (pesq. interna)</p>
               </div>
             </div>
             <div className="flex items-center gap-2">
@@ -85,7 +85,7 @@ export function HeroSection() {
               </div>
               <div>
                 <p className="text-sm font-bold text-primary-foreground">15+ Anos</p>
-                <p className="text-xs text-primary-foreground/60">De Experiência</p>
+                <p className="text-xs text-primary-foreground/60">Atuacao Trabalhista</p>
               </div>
             </div>
           </div>

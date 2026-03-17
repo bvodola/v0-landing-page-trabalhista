@@ -8,10 +8,11 @@ export function ContactForm() {
     <div className="w-full max-w-md rounded-2xl border border-border bg-card p-6 shadow-2xl lg:p-8">
       <div className="mb-6 text-center">
         <h2 className="font-serif text-2xl text-card-foreground">
-          Avaliação Gratuita
+          Analise Gratuita do Seu Caso
         </h2>
         <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-          Converse diretamente com um advogado especialista. Tire suas dúvidas sem compromisso e saiba como podemos ajudar.
+          Descubra se voce tem direito a verbas rescisorias, horas extras ou indenizacao. 
+          Atendimento sigiloso e sem compromisso.
         </p>
       </div>
 
