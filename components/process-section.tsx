@@ -1,5 +1,4 @@
 import { MessageSquare, FileSearch, Gavel, ArrowRight } from "lucide-react"
-import { handleWhatsappConversionClick } from "@/lib/whatsappConversion"
 
 const steps = [
   {
@@ -7,7 +6,7 @@ const steps = [
     icon: MessageSquare,
     title: "Conte seu Caso",
     description:
-      "Entre em contato pelo formulário ou WhatsApp e descreva brevemente sua situação. É rápido e sem compromisso.",
+      "Entre em contato pelo WhatsApp e descreva brevemente sua situacao. E rapido, sigiloso e sem compromisso.",
   },
   {
     number: "02",
@@ -71,7 +70,6 @@ export function ProcessSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-lg bg-accent px-8 py-3 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent/90"
-            onClick={e => handleWhatsappConversionClick(e, "https://wa.me/5511913307306?text=Olá, gostaria de uma avaliação gratuita do meu caso trabalhista.")}
           >
             Comece Agora — É Gratuito
             <ArrowRight className="h-4 w-4" />

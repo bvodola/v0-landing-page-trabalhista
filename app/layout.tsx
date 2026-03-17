@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const raleway = Raleway({ subsets: ["latin"], variable: "--font-raleway" });
 
 export const metadata: Metadata = {
-  title: 'Assunção Advogados | Seus Direitos, Nossa Prioridade',
-  description: 'Assunção Advogados - Escritório especializado em Direito Trabalhista. Atendimento humanizado para demissão injusta, horas extras, assédio no trabalho e mais. Consulta gratuita.',
+  title: 'Martins & Associados Advocacia | Seus Direitos, Nossa Prioridade',
+  description: 'Martins & Associados Advocacia - Escritório especializado em Direito Trabalhista. Atendimento humanizado para demissão injusta, horas extras, assédio no trabalho e mais. Consulta gratuita.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -40,17 +40,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <head>
-        {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-402647677"></script>
-        <script dangerouslySetInnerHTML={{
-          __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-402647677');
-        ` }} />
-      </head>
       <body className={`${inter.variable} ${raleway.variable} font-sans antialiased`}>
         {children}
         <Analytics />

@@ -3,33 +3,33 @@ import { Award, Users, MapPin, Headphones, ShieldCheck } from "lucide-react"
 const differentials = [
   {
     icon: Award,
-    title: "15+ Anos de Experiência",
+    title: "Foco em Rescisao e Verbas",
     description:
-      "Mais de uma década e meia atuando exclusivamente em causas trabalhistas, com profundo conhecimento da legislação e dos tribunais.",
+      "Especializacao em casos de demissao, calculo de verbas rescisorias, horas extras e direitos nao pagos. E o que fazemos de melhor.",
   },
   {
     icon: Users,
-    title: "Atendimento Humanizado",
+    title: "Voce Fala com Advogado",
     description:
-      "Entendemos que cada caso é uma história de vida. Ouvimos com atenção e agimos com dedicação total ao seu caso.",
+      "Nada de atendentes ou robos. Desde o primeiro contato, voce conversa diretamente com um advogado que entende do seu caso.",
   },
   {
     icon: MapPin,
-    title: "Atendimento em Todo Brasil",
+    title: "Atendimento 100% Digital",
     description:
-      "Atendemos clientes em todas as regiões do país, presencialmente ou de forma 100% digital, com a mesma qualidade.",
+      "Resolvemos seu caso por WhatsApp e videochamada, sem voce precisar sair de casa. Atendemos clientes de todo o Brasil.",
   },
   {
     icon: Headphones,
-    title: "Suporte Ágil e Transparente",
+    title: "Retorno em Ate 24h",
     description:
-      "Comunicação clara em cada etapa do processo. Você sempre sabe o que está acontecendo com o seu caso.",
+      "Sabemos que voce precisa de respostas rapidas. Garantimos retorno sobre sua situacao em ate 24 horas uteis.",
   },
   {
     icon: ShieldCheck,
-    title: "Compromisso com Resultados",
+    title: "Honorarios Sob Medida",
     description:
-      "Atuamos com máxima dedicação para obter os melhores resultados possíveis, com ética e transparência em todas as etapas.",
+      "Avaliamos cada caso individualmente. Em muitas situacoes, trabalhamos com cobranca apenas em caso de exito.",
   },
 ]
 
