@@ -37,6 +37,8 @@ export function Footer() {
             <p className="mt-3 text-sm leading-relaxed text-primary-foreground/60">
               OAB/SP 356.276
               <br />
+              OAB/SP 220.161
+              <br />
               Este site não constitui oferta de serviço nem garante resultados. Cada caso é avaliado individualmente.
             </p>
           </div>
