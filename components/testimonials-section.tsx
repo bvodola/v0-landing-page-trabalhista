@@ -3,26 +3,26 @@ import { Star, Quote } from "lucide-react"
 const testimonials = [
   {
     name: "Ana Paula R.",
-    role: "Auxiliar Administrativa - Sao Paulo/SP",
-    text: "Fui demitida gravida e achei que nao tinha mais o que fazer. A equipe me acolheu, explicou meus direitos e conseguimos a reintegracao ao emprego em menos de 3 meses.",
+    role: "Auxiliar Administrativa - São Paulo/SP",
+    text: "Fui demitida grávida e achei que não tinha mais o que fazer. A equipe me acolheu, explicou meus direitos e conseguimos a reintegração ao emprego em menos de 3 meses.",
     rating: 5,
   },
   {
     name: "Carlos Eduardo M.",
     role: "Motorista de Entregas - Guarulhos/SP",
-    text: "Trabalhei 3 anos como PJ, mas na pratica era CLT. Eles provaram o vinculo empregaticio e recebi todas as verbas que tinha direito. Processo resolvido em 8 meses.",
+    text: "Trabalhei 3 anos como PJ, mas na prática era CLT. Eles provaram o vínculo empregatício e recebi todas as verbas que tinha direito. Processo resolvido em 8 meses.",
     rating: 5,
   },
   {
     name: "Fernanda S.",
-    role: "Operadora de Caixa - Santo Andre/SP",
-    text: "Sofri assedio moral do meu supervisor por meses. O escritorio tratou tudo com muito sigilo. Conseguimos acordo com indenizacao e pude recomecar em outro emprego.",
+    role: "Operadora de Caixa - Santo André/SP",
+    text: "Sofri assédio moral do meu supervisor por meses. O escritório tratou tudo com muito sigilo. Conseguimos acordo com indenização e pude recomeçar em outro emprego.",
     rating: 5,
   },
   {
     name: "Roberto L.",
-    role: "Tecnico de Manutencao - Osasco/SP",
-    text: "Tinha horas extras acumuladas de 4 anos que a empresa se recusava a pagar. Com a orientacao juridica certa, recuperei mais de R$ 45 mil em acordo.",
+    role: "Técnico de Manutenção - Osasco/SP",
+    text: "Tinha horas extras acumuladas de 4 anos que a empresa se recusava a pagar. Com a orientação jurídica certa, recuperei mais de R$ 45 mil em acordo.",
     rating: 5,
   },
 ]

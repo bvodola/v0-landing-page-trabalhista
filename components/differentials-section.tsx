@@ -3,33 +3,33 @@ import { Award, Users, MapPin, Headphones, ShieldCheck } from "lucide-react"
 const differentials = [
   {
     icon: Award,
-    title: "Foco em Rescisao e Verbas",
+    title: "Foco em Rescisão e Verbas",
     description:
-      "Especializacao em casos de demissao, calculo de verbas rescisorias, horas extras e direitos nao pagos. E o que fazemos de melhor.",
+      "Especialização em casos de demissão, cálculo de verbas rescisórias, horas extras e direitos não pagos. É o que fazemos de melhor.",
   },
   {
     icon: Users,
-    title: "Voce Fala com Advogado",
+    title: "Você Fala com Advogado",
     description:
-      "Nada de atendentes ou robos. Desde o primeiro contato, voce conversa diretamente com um advogado que entende do seu caso.",
+      "Nada de atendentes ou robôs. Desde o primeiro contato, você conversa diretamente com um advogado que entende do seu caso.",
   },
   {
     icon: MapPin,
     title: "Atendimento 100% Digital",
     description:
-      "Resolvemos seu caso por WhatsApp e videochamada, sem voce precisar sair de casa. Atendemos clientes de todo o Brasil.",
+      "Resolvemos seu caso por WhatsApp e videochamada, sem você precisar sair de casa. Atendemos clientes de todo o Brasil.",
   },
   {
     icon: Headphones,
-    title: "Retorno em Ate 24h",
+    title: "Retorno em Até 24h",
     description:
-      "Sabemos que voce precisa de respostas rapidas. Garantimos retorno sobre sua situacao em ate 24 horas uteis.",
+      "Sabemos que você precisa de respostas rápidas. Garantimos retorno sobre sua situação em até 24 horas úteis.",
   },
   {
     icon: ShieldCheck,
-    title: "Honorarios Sob Medida",
+    title: "Honorários Sob Medida",
     description:
-      "Avaliamos cada caso individualmente. Em muitas situacoes, trabalhamos com cobranca apenas em caso de exito.",
+      "Avaliamos cada caso individualmente. Em muitas situações, trabalhamos com cobrança apenas em caso de êxito.",
   },
 ]
 
