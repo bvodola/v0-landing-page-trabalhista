@@ -1,10 +1,18 @@
 "use client"
 
+import { useSearchParams } from "next/navigation"
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { handleWhatsAppClick } from "@/lib/track-whatsapp"
+import { PAGE_CONTENT } from "@/lib/content"
 
 export function ContactForm() {
+  const searchParams = useSearchParams()
+  const grupoParam = searchParams.get("grupo")
+  
+  // Use 'fgts' content if grupo=fgts, otherwise fallback to 'trabalhista'
+  const content = (grupoParam === "fgts" ? PAGE_CONTENT.fgts : PAGE_CONTENT.trabalhista).form
+
   return (
     <div className="w-full max-w-md rounded-2xl border border-border bg-card p-6 shadow-2xl lg:p-8">
       <div className="mb-6 text-center">
@@ -12,8 +20,7 @@ export function ContactForm() {
           Análise Gratuita do Seu Caso
         </h2>
         <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-          Descubra se você tem direito a verbas rescisórias, horas extras ou indenização. 
-          Atendimento sigiloso e sem compromisso.
+          {content.description}
         </p>
       </div>
 

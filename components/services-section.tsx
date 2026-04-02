@@ -18,7 +18,7 @@ const services = [
   },
   {
     icon: Briefcase,
-    title: "Verbas Rescisórias",
+    title: "Verbas Rescisórias e FGTS",
     description:
       "Cálculo e cobrança de todas as verbas devidas: FGTS, multa de 40%, aviso prévio, férias e 13º.",
   },

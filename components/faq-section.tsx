@@ -27,7 +27,7 @@ const faqs = [
   {
     question: "Vocês cobram apenas em caso de êxito?",
     answer:
-      "Trabalhamos com honorários combinados previamente, e muitos casos podem ser tratados com cobrança apenas em caso de êxito. Cada situação é avaliada individualmente para garantir a melhor condição para você.",
+      "Sim. Nosso trabalho não tem custo inicial nenhum para o cliente. Ele só paga se receber o que tem direito.",
   },
   {
     question: "Quais documentos preciso ter para abrir uma ação?",

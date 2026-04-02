@@ -25,7 +25,7 @@ export function Footer() {
             <nav className="mt-3 flex flex-col gap-2">
               <a href="#servicos" className="text-sm text-primary-foreground/60 transition-colors hover:text-primary-foreground">Serviços</a>
               <a href="#diferenciais" className="text-sm text-primary-foreground/60 transition-colors hover:text-primary-foreground">Diferenciais</a>
-              <a href="#processo" className="text-sm text-primary-foreground/60 transition-colors hover:text-primary-foreground">Como Funciona</a>
+              {/* <a href="#processo" className="text-sm text-primary-foreground/60 transition-colors hover:text-primary-foreground">Como Funciona</a> */}
               <a href="#depoimentos" className="text-sm text-primary-foreground/60 transition-colors hover:text-primary-foreground">Depoimentos</a>
               <a href="#faq" className="text-sm text-primary-foreground/60 transition-colors hover:text-primary-foreground">Perguntas Frequentes</a>
             </nav>

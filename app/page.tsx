@@ -1,3 +1,4 @@
+import { Suspense } from "react"
 import { Header } from "@/components/header"
 import { HeroSection } from "@/components/hero-section"
 import { ServicesSection } from "@/components/services-section"
@@ -12,20 +13,20 @@ import { WhatsAppFloat } from "@/components/whatsapp-float"
 
 export default function Home() {
   return (
-    <>
+    <Suspense fallback={<div className="min-h-screen bg-primary" />}>
       <Header />
       <main>
         <HeroSection />
         <ServicesSection />
         <DifferentialsSection />
-        <ProcessSection />
+        {/* <ProcessSection /> */}
         <TestimonialsSection />
-        <CredibilitySection />
+        {/* <CredibilitySection /> */}
         <FaqSection />
         <ContactSection />
       </main>
       <Footer />
       <WhatsAppFloat />
-    </>
+    </Suspense>
   )
 }

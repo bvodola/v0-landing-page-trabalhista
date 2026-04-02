@@ -18,19 +18,7 @@ const differentials = [
     title: "Atendimento 100% Digital",
     description:
       "Resolvemos seu caso por WhatsApp e videochamada, sem você precisar sair de casa. Atendemos clientes de todo o Brasil.",
-  },
-  {
-    icon: Headphones,
-    title: "Retorno em Até 24h",
-    description:
-      "Sabemos que você precisa de respostas rápidas. Garantimos retorno sobre sua situação em até 24 horas úteis.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Honorários Sob Medida",
-    description:
-      "Avaliamos cada caso individualmente. Em muitas situações, trabalhamos com cobrança apenas em caso de êxito.",
-  },
+  }
 ]
 
 export function DifferentialsSection() {

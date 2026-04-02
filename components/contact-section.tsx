@@ -16,7 +16,7 @@ export function ContactSection() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-2 lg:w-1/2 mx-auto">
           <a
             href="https://wa.me/5511913307306"
             target="_blank"
@@ -28,28 +28,6 @@ export function ContactSection() {
             </div>
             <h3 className="font-serif text-base text-card-foreground">WhatsApp</h3>
             <p className="mt-1 text-sm text-muted-foreground">(11) 91330-7306</p>
-          </a>
-
-          <a
-            href="tel:+5511913307306"
-            className="group flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-accent/50 hover:shadow-lg"
-          >
-            <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary transition-colors group-hover:bg-primary/20">
-              <Phone className="h-5 w-5" />
-            </div>
-            <h3 className="font-serif text-base text-card-foreground">Telefone</h3>
-            <p className="mt-1 text-sm text-muted-foreground">(11) 91330-7306</p>
-          </a>
-
-          <a
-            href="mailto:contato@alexandreassuncao.com.br"
-            className="group flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center transition-all hover:border-accent/50 hover:shadow-lg"
-          >
-            <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary transition-colors group-hover:bg-primary/20">
-              <Mail className="h-5 w-5" />
-            </div>
-            <h3 className="font-serif text-base text-card-foreground">E-mail</h3>
-            <p className="mt-1 text-sm text-muted-foreground">contato@alexandreassuncao.com.br</p>
           </a>
 
           <div className="flex flex-col items-center rounded-xl border border-border bg-card p-6 text-center">

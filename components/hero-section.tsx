@@ -1,11 +1,19 @@
 "use client"
 
 import Image from "next/image"
+import { useSearchParams } from "next/navigation"
 import { Shield, ArrowRight } from "lucide-react"
 import { ContactForm } from "@/components/contact-form"
 import { handleWhatsAppClick } from "@/lib/track-whatsapp"
+import { PAGE_CONTENT } from "@/lib/content"
 
 export function HeroSection() {
+  const searchParams = useSearchParams()
+  const grupoParam = searchParams.get("grupo")
+
+  // Use 'fgts' content if grupo=fgts, otherwise fallback to 'trabalhista'
+  const content = (grupoParam === "fgts" ? PAGE_CONTENT.fgts : PAGE_CONTENT.trabalhista).hero
+
   return (
     <section id="formulario" className="relative overflow-hidden bg-primary">
       {/* Background image with overlay */}
@@ -25,17 +33,16 @@ export function HeroSection() {
         <div className="flex flex-col justify-center">
           <div className="mb-6 inline-flex w-fit items-center gap-2 rounded-full border border-primary-foreground/20 bg-primary-foreground/10 px-4 py-2 text-sm font-medium text-primary-foreground/90">
             <Shield className="h-4 w-4" />
-            Especialistas em Rescisão e Verbas Trabalhistas
+            {content.badge}
           </div>
 
           <h1 className="font-serif text-4xl font-medium leading-tight text-primary-foreground md:text-5xl lg:text-6xl text-balance">
-            Foi Demitido e Acha que{" "}
-            <span className="text-accent">Recebeu Menos do que Deveria?</span>
+            {content.cta.text}
+            <span className="text-accent">{content.cta.highlight}</span>
           </h1>
 
           <p className="mt-6 max-w-lg text-lg font-medium leading-relaxed text-primary-foreground/80">
-            Descubra em uma análise gratuita se você tem direito a verbas rescisórias, 
-            horas extras ou indenização. Mais de 2.500 casos analisados com 97% de satisfação em pesquisa interna.
+            {content.description}
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -91,9 +98,9 @@ export function HeroSection() {
         </div>
 
         {/* Right: form */}
-        <div className="flex items-start justify-center lg:justify-end">
+        {/* <div className="flex items-start justify-center lg:justify-end">
           <ContactForm />
-        </div>
+        </div> */}
       </div>
     </section>
   )
