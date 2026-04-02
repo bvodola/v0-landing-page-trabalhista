@@ -3,13 +3,13 @@ export const PAGE_CONTENT = {
     hero: {
       badge: "Especialistas em Rescisão e Verbas Trabalhistas",
       cta: {
-        text: "Foi Demitido e Acha que ",
-        highlight: "Recebeu Menos do que Deveria?"
+        text: "Foi Demitido? Fale com um ",
+        highlight: "Advogado Trabalhista"
       },
-      description: "Descubra em uma análise gratuita se você tem direito a verbas rescisórias, horas extras ou indenização. Atendimento sigiloso e sem compromisso.",
+      description: "Receba suas verbas rescisórias, horas extras ou indenização. Atendimento sigiloso e sem compromisso.",
     },
     form: {
-      description: "Descubra se você tem direito a verbas rescisórias, horas extras ou indenização. Atendimento sigiloso e sem compromisso.",
+      description: "Receba suas verbas rescisórias, horas extras ou indenização. Atendimento sigiloso e sem compromisso.",
     }
   },
   fgts: {

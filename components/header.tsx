@@ -25,9 +25,8 @@ export function Header() {
           <Image
             src="/images/logo.png"
             alt="Assunção Advogados"
-            width={320}
-            height={96}
-            className="h-20 w-auto md:h-24"
+            width={120}
+            height={50}
             priority
           />
         </a>
